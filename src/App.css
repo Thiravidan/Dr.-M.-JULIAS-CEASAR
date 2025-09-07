@@ -70,6 +70,19 @@ small { color: var(--muted); }
   text-decoration: none;
   font-weight: 800;
   letter-spacing: 0.3px;
+  font-size: clamp(14px, 3vw, 18px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60%;
+}
+
+.brand-short {
+  display: none;
+}
+
+.brand-full {
+  display: inline;
 }
 .nav-links a {
   color: var(--muted);
@@ -325,11 +338,19 @@ input:focus, textarea:focus {
   }
   
   .brand {
-    max-width: 40%;
+    max-width: 50%;
     font-size: 14px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  
+  .brand-short {
+    display: inline;
+  }
+  
+  .brand-full {
+    display: none;
   }
   
   .nav-links {
@@ -367,6 +388,11 @@ input:focus, textarea:focus {
   
   .hero-text-content {
     max-width: 100%;
+  }
+  
+  .hero-image {
+    justify-content: center;
+    margin-left: 0;
   }
   
   .profile-photo {
@@ -470,7 +496,7 @@ input:focus, textarea:focus {
   
   .brand {
     font-size: 13px;
-    max-width: 35%;
+    max-width: 45%;
   }
   
   .nav-links a {

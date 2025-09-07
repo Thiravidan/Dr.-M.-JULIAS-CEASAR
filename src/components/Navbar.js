@@ -4,7 +4,10 @@ export default function Navbar() {
   return (
     <header className="nav">
       <div className="container nav-inner">
-        <Link to="/" className="brand">Dr. M. Julias Ceasar</Link>
+        <Link to="/" className="brand">
+          <span className="brand-full">Dr. M. Julias Ceasar</span>
+          <span className="brand-short">Dr. M. J. Ceasar</span>
+        </Link>
         <nav className="nav-links">
           <NavLink to="/" end>Home</NavLink>
           <NavLink to="/about">About</NavLink>
