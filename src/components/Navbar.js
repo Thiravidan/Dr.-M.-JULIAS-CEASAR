@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className="container nav-inner">
         <Link to="/" className="brand">
           <span className="brand-full">Dr. M. Julias Ceasar</span>
-          <span className="brand-short">Dr. M. J. Ceasar</span>
+          <span className="brand-short">Dr. M. Julias Ceasar</span>
         </Link>
         
         {/* Mobile menu button */}
