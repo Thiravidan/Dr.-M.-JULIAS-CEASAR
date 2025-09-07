@@ -158,11 +158,15 @@ small { color: var(--muted); }
   opacity: 0;
   transform: translateY(-10px);
   transition: all 0.3s ease;
+  pointer-events: none;
+  visibility: hidden;
 }
 
 .mobile-nav.active {
   opacity: 1;
   transform: translateY(0);
+  pointer-events: auto;
+  visibility: visible;
 }
 
 .mobile-nav a {
@@ -188,6 +192,17 @@ small { color: var(--muted); }
 
 .mobile-nav a:last-child {
   border-bottom: none;
+}
+
+/* Ensure mobile nav is hidden on desktop */
+@media (min-width: 769px) {
+  .mobile-nav {
+    display: none !important;
+  }
+  
+  .mobile-menu-btn {
+    display: none !important;
+  }
 }
 
 .hero {
