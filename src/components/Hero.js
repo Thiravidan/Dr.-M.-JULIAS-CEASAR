@@ -6,9 +6,20 @@ export default function Hero() {
       <div className="container hero-inner">
         <div className="hero-content">
           <div className="hero-text-content">
-            <h1 className="hero-title">
-              <span className="accent">{profile.name}</span>
-            </h1>
+            <div className="hero-name-section">
+              <h1 className="hero-title">
+                <span className="accent">{profile.name}</span>
+              </h1>
+              <div className="hero-image-mobile">
+                <div className="profile-photo-mobile">
+                  <img 
+                    src="/profile-photo.jpg" 
+                    alt="Dr. M. Julias Ceasar" 
+                    className="profile-img-mobile"
+                  />
+                </div>
+              </div>
+            </div>
             <p className="hero-subtitle">{profile.titles.join(' • ')}</p>
             <p className="hero-text">{profile.objective}</p>
             <div className="hero-cta">
