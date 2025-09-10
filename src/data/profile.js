@@ -6,7 +6,7 @@ export const profile = {
     "Associate Professor of Commerce"
   ],
   email: "juliasceasar_co1@mail.sjctni.edu",
-  phones: ["94431 10877", "8056608580"],
+  phones: ["+91 94431 10877", "+91 8056608580"],
   institution: "St. Joseph’s College (Autonomous), Tiruchirappalli - 627 002",
   objective:
     "To be a teacher, guide, counselor and an inspiration to all the young associating with me in the process of learning.",
