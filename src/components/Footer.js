@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="footer-content">
           <p className="footer-text">All rights reserved @Free Will Technologies.</p>
           <p className="footer-email">
-            <a href="mailto:julius.sxc@gmail.com">julius.sxc@gmail.com</a>
+            <a href="mailto:juliasceasar_co1@mail.sjctni.edu">juliasceasar_co1@mail.sjctni.edu</a>
           </p>
         </div>
       </div>

@@ -23,7 +23,7 @@ export default function Hero() {
             <p className="hero-subtitle">{profile.titles.join(' • ')}</p>
             <p className="hero-text">{profile.objective}</p>
             <div className="hero-cta">
-              <a className="btn primary" href="mailto:julius.sxc@gmail.com">Email</a>
+              <a className="btn primary" href="mailto:juliasceasar_co1@mail.sjctni.edu">Email</a>
               <a className="btn" href="/publications">Publications</a>
             </div>
           </div>
