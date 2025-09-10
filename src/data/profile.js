@@ -4,7 +4,7 @@ export const profile = {
     "Dean, School of Management Studies",
     "Associate Professor of Commerce"
   ],
-  email: "julius.sxc@gmail.com",
+  email: "juliasceasar_co1@mail.sjctni.edu",
   phones: ["94431 10877", "8056608580"],
   institution: "St. Joseph’s College (Autonomous), Tiruchirappalli - 627 002",
   objective:
