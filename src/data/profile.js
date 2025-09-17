@@ -3,7 +3,7 @@ export const profile = {
   name: "Dr. M. JULIAS CEASAR",
   titles: [
     "Dean, School of Commerce",
-    "Associate Professor of Commerce"
+    "Associate Professor of PG and Research Department of Commerce"
   ],
   email: "juliasceasar_co1@mail.sjctni.edu",
   phones: ["+91 94431 10877", " +91 8056608580"],
@@ -89,9 +89,9 @@ export const profile = {
     "ICSSR National Conference: Industry 5.0 (18–19 Jul 2024)"
   ],
   awards: [
-    "Young Social Scientist Award – Indian Academic Researchers Association",
-    "Best Researcher Award – St. Xavier’s College (Autonomous), Palayamkottai (2 years)",
-    "Best Researcher Award – St. Joseph’s College (Autonomous), Tiruchirappalli"
+    "Bestowed with Young social scientist award by Indian academic Researchers Association",
+    "Recipient of Best Researcher Award from St. Xavier's College (Autonomous) Palayamkottai consecutively for 2 years in appreciation for the contributions in Research and publications.",
+    "Recipient of Best Researcher Award from St. Joseph's College (Autonomous), Tiruchirappalli during the academic year in appreciation for the contributions in Research and Publications."
   ],
   publicationsSummary: {
     booksAuthored: 4,
@@ -186,6 +186,22 @@ export const profile = {
       month: "January 2024",
       volume: "Volume: 21, No: S1 (2024), pp. 933-941",
       impactFactor: "4.6"
+    },
+    {
+      id: 8,
+      journal: "Migration Letters",
+      title: "Migration Letters Vol. 21 No. S1(2024)",
+      month: "2024",
+      volume: "Volume: 21, No: S1",
+      impactFactor: "N/A"
+    },
+    {
+      id: 9,
+      journal: "Migration Letters",
+      title: "Migration Letters Vol. 21 No. S2(2024)",
+      month: "2024",
+      volume: "Volume: 21, No: S2",
+      impactFactor: "N/A"
     }
   ],
   featuredPublications: [
