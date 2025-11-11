@@ -94,11 +94,19 @@ export const profile = {
     "Recipient of Best Researcher Award from St. Joseph's College (Autonomous), Tiruchirappalli during the academic year in appreciation for the contributions in Research and Publications."
   ],
   publicationsSummary: {
+<<<<<<< HEAD
     booksAuthored: 7,
     booksEdited: 13,
     contributionsToBooks: 15,
     journalPapers: 66,
     papersPresented: 36,
+=======
+    booksAuthored: 4,
+    booksEdited: 10,
+    contributionsToBooks: 12,
+    journalPapers: 65,
+    papersPresented: 35,
+>>>>>>> a1df8005adf01973bff9c66230cdedb5b1221e4c
     eventsAttended: 50,
     phdProduced: 12,
     internationalVisits: 1
@@ -204,6 +212,7 @@ export const profile = {
       impactFactor: "N/A"
     }
   ],
+<<<<<<< HEAD
 
  bookPublications: [
   {
@@ -241,6 +250,11 @@ export const profile = {
     },
     {
       id: 2,
+=======
+  featuredPublications: [
+    {
+      id: 1,
+>>>>>>> a1df8005adf01973bff9c66230cdedb5b1221e4c
       title: "AN ASSESSMENT OF ECO-FRIENDLY TOUR EXPERIENCE IN THE LIGHT OF QUALITY NATURE AND POLLUTION FREE LOCATIONS",
       coAuthors: "L.ANTONY, Dr. M. JULIAS CEASAR",
       journal: "Neuroquantology",
@@ -250,7 +264,11 @@ export const profile = {
       link: "https://www.neuroquantology.com/open-access/AN+ASSESSMENT+OF+ECO-FRIENDLY+TOUR+EXPERIENCE+IN+THE+LIGHT+OF+QUALITY+NATURE+AND+POLLUTION+FREE+LOCATIONS_13195/"
     },
     {
+<<<<<<< HEAD
       id: 3,
+=======
+      id: 2,
+>>>>>>> a1df8005adf01973bff9c66230cdedb5b1221e4c
       title: "ATTITUDE AND PERCEPTION OF TOURISTS TOWARDS ECO-TOURISM: A COMPARATIVE STUDY IN TIRUNELVELI AND KANYAKUMARI DISTRICTS",
       coAuthors: "L.ANTONY, Dr. M. JULIAS CEASAR",
       journal: "IJFANS International Journal of Food and Nutritional Sciences",

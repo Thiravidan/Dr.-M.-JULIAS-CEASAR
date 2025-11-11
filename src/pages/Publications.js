@@ -19,7 +19,11 @@ export default function Publications() {
         </ul>
       </Section>
 
+<<<<<<< HEAD
       <Section title="Latest Publications">
+=======
+      <Section title="Recent Publications (Last 3 Years)">
+>>>>>>> a1df8005adf01973bff9c66230cdedb5b1221e4c
         <div className="publications-list">
           {profile.recentPublications.map((pub) => (
             <div key={pub.id} className="publication-item">
@@ -41,6 +45,7 @@ export default function Publications() {
         </div>
       </Section>
 
+<<<<<<< HEAD
       <Section title="Book Publications">
        <div className="publications-list">
          {profile.bookPublications.map((book) => (
@@ -61,6 +66,8 @@ export default function Publications() {
       </Section>
 
 
+=======
+>>>>>>> a1df8005adf01973bff9c66230cdedb5b1221e4c
       <Section title="Featured Publications">
         <div className="featured-publications">
           {profile.featuredPublications.map((pub) => (
